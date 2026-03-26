@@ -19,36 +19,41 @@ const dataabout = {
     "I’m an enthusiastic and customer-focused Assistant Manager at KFC, where I’ve spent over 3 years leading teams and driving great service. Now, I’m diving into the world of computer science at Swinburne University, where I’m not just learning the ropes but pushing the boundaries through multiple projects. My passion for tech runs deep, and I’m eager to channel that energy into a dynamic team where I can make a real impact. I’m all about turning challenges into opportunities and can’t wait to contribute to something that truly matters.",
 };
 const worktimeline = [{
-        jobtitle: "Assistant manager",
-        where: "Southern Restaurant",
-        date: "2020-now",
-    },
-    {
-        jobtitle: "Awarded by Google",
-        where: "Google code in challenge",
-        date: "2019",
-    },
-    {
-        jobtitle: "16,000 subscribers",
-        where: "Youtube channel",
-        date: "2020",
-    },
-    {
-        jobtitle: "Graduated",
-        where: "Cranbourne East Secondary College",
-        date: "2022",
-    },
-    {
-        jobtitle: "100000 downloads on my mobile app",
-        where: "Google Play Store",
-        date: "2021",
-    },
-    {
-        jobtitle: "Undergraduate bachelor of Computer Science student",
-        where: "Swinburne University of Technology",
-        date: "Major in Software Development",
-    },
-];
+//         jobtitle: "Assistant manager",
+//         where: "Southern Restaurant",
+//         date: "2020-now",
+//     },
+//     {
+//         jobtitle: "Awarded by Google",
+//         where: "Google code in challenge",
+//         date: "2019",
+//     },
+//     {
+//         jobtitle: "16,000 subscribers",
+//         where: "Youtube channel",
+//         date: "2020",
+//     },
+//     {
+//         jobtitle: "Graduated",
+//         where: "Cranbourne East Secondary College",
+//         date: "2022",
+//     },
+//     {
+//         jobtitle: "100000 downloads on my mobile app",
+//         where: "Google Play Store",
+//         date: "2021",
+//     },
+//     {
+//         jobtitle: "100000 downloads on my mobile app",
+//         where: "Google Play Store",
+//         date: "2021",
+//     },
+//     {
+//         jobtitle: "Bachelor of Computer Science",
+//         where: "Swinburne University of Technology",
+//         date: "Major in Software Development",
+
+}];
 
 const skills = [
     {
@@ -116,18 +121,17 @@ const dataportfolio = [{
         description: "Camspot.",
         link: "/projects/campspot",
     },
+    {
+        img: "https://picsum.photos/400/600/?grayscale",
+        description: "Coffee meets careers.",
+        link: "/projects/cmc",
+    },
     
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "yaserhaidari2004@gmail.com",
-    YOUR_FONE: "0470348314",
     description: "I am available at any time, feel free to contact me.",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    // YOUR_SERVICE_ID: "service_id",
-    // YOUR_TEMPLATE_ID: "template_id",
-    // YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
