@@ -7,6 +7,11 @@ import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { Cap } from "../pages/projects/cap";
+import { Safelife } from "../pages/projects/safelife";
+import { Music } from "../pages/projects/music";
+import { Life } from "../pages/projects/life";
+import { Camspot } from "../pages/projects/camspot";
 
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -17,13 +22,17 @@ const AnimatedRoutes = withRouter(({ location }) => (
         exit: 400,
       }}
       classNames="page"
-      unmountOnExit
-    >
+      unmountOnExit>
       <Routes location={location}>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/projects/cap" element={<Cap />} />
+        <Route path="/projects/safelife" element={<Safelife />} />
+        <Route path="/projects/music" element={<Music />} />
+        <Route path="/projects/life" element={<Life />} />
+        <Route path="/projects/campspot" element={<Camspot />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>
